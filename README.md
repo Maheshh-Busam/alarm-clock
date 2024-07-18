@@ -5,6 +5,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Design](#design)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contact](#contact)
@@ -17,6 +18,18 @@ The Alarm Clock project is a simple web application designed to help users set a
 - Set multiple alarms.
 - User-friendly interface.
 - Can delete alarms at any time.
+
+## Design
+
+Initial page--
+![Image](image.png)
+
+On click of Set Alarm--
+![Image](image-1.png)
+
+Added Alarms in list--
+![Image](image-2.png)
+
 
 ## Installation
 To run this project locally, follow these steps:
