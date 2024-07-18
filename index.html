@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Heading for Alarm clock.. -->
+      <h1>Alarm Clock</h1>
+
+      <!-- div for display all Clock details.. -->
+      <div class="clock-container">
+        <div id="current-time" class="time-display">
+          <!-- this div is to display the Current Real Time -->
+        </div>
+        <div class="set-alarm">
+          <!-- to display set alarm button -->
+          <button class="set-alarm-btn">Set Alarm</button>
+        </div>
+        <div class="input-group">
+          <!-- This div is for display input boxes to enter the time.. -->
+        </div>
+        <div class="alarms-container">
+          <h2>Your Alarms</h2>
+
+          <!-- Disaply the text if no alarms are added.. -->
+          <h3 class="no-alarms-text">No Alarms Added...Please set the alarm</h3>
+          <ul id="alarms-list">
+            <!-- This Ul element is to list the alarms whcih are set by user... -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./Modules/render.js"></script>
+  </body>
+</html>

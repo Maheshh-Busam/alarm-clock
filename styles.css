@@ -1,0 +1,166 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  background: linear-gradient(to right, rgb(230, 140, 140), rgb(41, 215, 11));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.container {
+  background-color: rgb(12, 244, 201);
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+
+.clock-container {
+  background-color: #ececec;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.set-alarm {
+  display: flex;
+  justify-content: center;
+}
+
+.set-alarm button {
+  background-color: rgb(70, 239, 208);
+  padding: 6px 12px;
+  color: black;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: center;
+  border: none;
+  font-size: 18px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.no-alarms-text {
+  color: rgb(117, 112, 112);
+}
+
+.input-group #hours,
+.input-group #minutes,
+.input-group #seconds {
+  font-size: 25px;
+  width: 40px;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-group #hours,
+.input-group #minutes,
+.input-group #seconds,
+.input-group #ampm {
+  border-radius: 5px;
+  border: none;
+}
+
+.input-group #ampm {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.colon{
+  font-size: 25px;
+}
+
+#submit-btn {
+  background-color: rgb(70, 239, 208);
+  border: none;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-wrap: nowrap;
+  margin-right: 4px;
+  margin-left: 3px;
+}
+.close-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.time-display {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.alarms-container h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.alarms-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.alarms-container ul li {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgb(70, 239, 208);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 600;
+}
+
+.delete-btn button {
+  background-color: red;
+  padding: 4px 10px;
+  margin: 0;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-left: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+button{
+  transition: transform 0.3s ease;
+}
+
+button:hover, #submit-btn:hover {
+  transform: scale(1.08);
+}
